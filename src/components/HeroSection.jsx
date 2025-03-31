@@ -14,7 +14,7 @@ const scrollToEvents = () => {
 return (
     <div style={{
             height: '80vh',
-            background: 'linear-gradient(rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 1)), url("images/image4.jpg")',
+            background: 'linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 1)), url("images/image4.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: '',
             display: 'flex',
