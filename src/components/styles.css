@@ -1,0 +1,78 @@
+/* Override root container limitations */
+#root {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Adobe Fonts Integration */
+  @import url("https://use.typekit.net/your-kit-id.css"); /* Replace with your Adobe Fonts kit ID */
+  
+  /* Custom font definitions if you don't have direct access to Adobe Fonts */
+  @font-face {
+    font-family: 'Bryant-2';
+    src: local('Bryant-2'), url('path-to-your-font/Bryant-2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FF-Nort';
+    src: local('FF-Nort'), url('path-to-your-font/FF-Nort.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'FF-Nort', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .logo-text {
+    font-family: 'Bryant-2', 'Arial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'FF-Nort', 'Arial', sans-serif;
+  }
+  
+  /* Ensure full width layout */
+  .layout {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .ant-layout-content {
+    width: 100%;
+  }
+  
+  /* Override Ant Design's primary color */
+  .ant-btn-primary {
+    background-color: #000;
+    border-color: #000;
+  }
+  
+  .ant-btn-primary:hover, .ant-btn-primary:focus {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .ant-layout-header {
+      padding: 0 20px !important;
+    }
+    .desktop-menu {
+      display: none !important;
+    }
+    .mobile-menu-toggle {
+      display: block !important;
+    }
+  }
