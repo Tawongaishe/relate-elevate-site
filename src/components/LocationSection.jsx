@@ -23,12 +23,12 @@ import { Button, Space, Typography } from 'antd';
                     }}
                 >
                     <Title className="logo-text" style={{ color: '#fff', fontSize: '48px', marginBottom: '10px' }}></Title>
-                    <Title level={3} style={{ color: '#fff', fontWeight: 'bold', marginTop: 0 }}>
+                    <Title level={1} style={{ color: '#fff', fontWeight: 'bold', marginTop: 0 }}>
                         Prime Time Golf Oakland
                     </Title>
                     <Paragraph
                         style={{
-                            fontSize: '18px',
+                            fontSize: '20px',
                             maxWidth: '700px',
                             color: '#fff',
                             margin: '30px 0',
