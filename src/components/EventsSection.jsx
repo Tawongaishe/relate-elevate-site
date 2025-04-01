@@ -10,7 +10,7 @@ const events = [
     title: "Let's Get Social: The Power of Networking",
     date: "April 4, 2025",
     time: "6:00 PM - 9:00 PM",
-    location: "PrimeTime Venue, San Francisco",
+    location: "PrimeTime Golf, Oakland",
     description: "An evening of professional networking, golf, music, nibbles, good wine and fun!",
     attire: "Business Casual",
     image: "images/image3.jpg"
